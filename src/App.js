@@ -24,7 +24,7 @@ const items = [
   },
   {
     image: appleIcon,
-    link: 'https://google.com/',
+    link: 'https://iphone-website-tau.vercel.app/',
     title: 'Apple Clone',
     description: 'One of my projects which is live.',
     style: 'left-[2%] sm-left-[1.25em]'
