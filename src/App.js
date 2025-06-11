@@ -6,6 +6,7 @@ import appleIcon from './assets/icon-apple-inc-900.png';
 import downloadIcon from './assets/icon-download-96.png';
 import InfiniteMenu from './InfiniteMenu';
 import { Analytics } from "@vercel/analytics/react";
+import Hero from './hero';
 
 const items = [
   {
@@ -42,9 +43,10 @@ const items = [
 function App() {
   return (
     // <div className='h-screen relative text-yellow-400 sm:text-white'>
-    <div className='h-screen relative text-white'>
-      <InfiniteMenu items={items}/>
+    <div>
       <Analytics />
+        <Hero />
+        <InfiniteMenu items={items}/>
     </div>
   );
 }
