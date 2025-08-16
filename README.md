@@ -1,3 +1,4 @@
+# This is an incomplete website. Do look at my resume for more details about my skills.
 # 🚀 Aayush Thorat's Portfolio Website
 
 Welcome to my personal portfolio website!  
